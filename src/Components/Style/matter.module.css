@@ -1,0 +1,34 @@
+.expContainer{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-gap: 1px;
+}
+
+.expCard{
+    border-top: 2px solid rgba(51, 51, 58, 1) ;
+    padding: 3px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.button{
+    width: 174px;
+    height: 40px;
+    background-color: #33333A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    color: rgba(255,255,255,1);
+    font-family: "ProximaNova-Bold";
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,83 @@
+.card p {
+    opacity: 1;
+    color: rgba(51, 51, 58, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.cardImg {
+    width: 264px;
+    height: 390px;
+    background-size: cover;
+    padding: 4%;
+    border-radius: 4px;
+}
+
+.new {
+    width: 70px;
+    height: 20px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    border-radius: 6px;
+   
+}
+
+.new p {
+    color: rgba(255, 255, 255, 1);
+   
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.card img {
+    width: 80%;
+    height: 80%;
+    border-radius: 3px;
+}
+
+.card{
+    border-radius: 3px;
+    width: 90%;
+}
+.shadow:hover{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    opacity: 0.6;
+    cursor: pointer;
+    color: #000;
+}
+
+.Quick{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    align-items: center;
+    margin: auto;
+}
+
+.Quick p{
+    color: #fff;
+}
+
+.Hide{
+    display: none;
+}
+
