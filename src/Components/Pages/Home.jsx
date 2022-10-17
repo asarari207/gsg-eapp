@@ -5,6 +5,7 @@ import Hero from '../Hero'
 import Products from '../Products'
 import About from '../About'
 import Matter from '../Matter'
+import Shop from '../Shop'
 
 export default function Home() {
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Products />
         <About />
         <Matter  />
+        <Shop />
     </Fragment>
   )
 }

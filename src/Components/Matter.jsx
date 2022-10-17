@@ -3,6 +3,7 @@ import Style from './Style/matter.module.css'
 import IMG from './Imges/EXpbag.png'
 import IMGT from './Imges/EXpbag.png'
 import E1 from './Imges/e1.png'
+import Button from './Items/Button'
 
 export default function Matter({children}) {
     return (
@@ -50,7 +51,7 @@ export default function Matter({children}) {
                     
                 </div>
                 <br />
-              <center><button className={Style.button}>See the journal</button></center>  
+              <Button text='See the journal'></Button>
             </section>
         </>
     )
