@@ -6,6 +6,9 @@ import Products from '../Products'
 import About from '../About'
 import Matter from '../Matter'
 import Shop from '../Shop'
+import Video from '../Video'
+import Aso from '../Aso'
+import Footer from '../Footer'
 
 export default function Home() {
 
@@ -20,6 +23,9 @@ export default function Home() {
         <About />
         <Matter  />
         <Shop />
+        <Video />
+        <Aso />
+        <Footer />
     </Fragment>
   )
 }

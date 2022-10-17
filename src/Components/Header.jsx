@@ -1,5 +1,8 @@
 import React,{Fragment} from 'react'
 import Style from './Style/header.module.css'
+import ICONE from './icons/search.svg'
+import ICTOW from './icons/heart.svg'
+import ICTHREE from './icons/Shape.svg'
 
 export default function Header({logo}) {
   return (
@@ -17,9 +20,9 @@ export default function Header({logo}) {
         <div>
           <ul className={Style.list}>
             <li className={Style.listItems}>LOGIN</li>
-            <li className={Style.listItems}>i</li>
-            <li className={Style.listItems}>i</li>
-            <li className={Style.listItems}>i</li>
+            <li className={Style.listItems}><img src={ICONE} width='15px' /></li>
+            <li className={Style.listItems}><img src={ICTOW} width='15px'  /></li>
+            <li className={Style.listItems}><img src={ICTHREE} width='15px'  /></li>
           </ul>
         </div>
 
