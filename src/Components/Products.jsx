@@ -1,7 +1,7 @@
 import React from 'react'
 import Products from './Items/Products'
 import Style from './Style/products.module.css'
-import SctionTitle from './Items/SctionTitle'
+
 
 export default function Productslist() {
 
@@ -10,6 +10,7 @@ export default function Productslist() {
   return (
     <div className={Style.Product}>
           <SctionTitle title="Featured" />
+          <br />
         <div className={Style.container}>
            {data.map(dt =>  <Products text='Pueraria Mirifica And Study Phyto Estrogens' />)}
         </div>
