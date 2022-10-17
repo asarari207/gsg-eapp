@@ -1,7 +1,7 @@
 import React from 'react'
 import Products from './Items/Products'
 import Style from './Style/products.module.css'
-
+import SctionTitle from './Items/SctionTitle'
 
 export default function Productslist() {
 
