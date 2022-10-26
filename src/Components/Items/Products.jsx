@@ -1,8 +1,10 @@
-import React,{Fragment} from 'react'
+import React,{Fragment,useState} from 'react'
 import Style from './Product.module.css'
 import ProdImg from '../Imges/pro2.png'
 
 export default function Products({text}) {
+
+  
 
   const qouck = () =>{
     var hide = document.getElementById('hide');
@@ -10,9 +12,13 @@ export default function Products({text}) {
 
   }
 
+
+
   return (
     <Fragment>
-         <div className={Style.card}>
+      <div className={Style.card}>
+
+      
         <div className={Style.shadow}>
           <div className={Style.cardImg} onFocus={qouck} style={{backgroundImage:`url(${ProdImg})`}}>
             <div className={Style.new}>
@@ -27,6 +33,8 @@ export default function Products({text}) {
           </div>
         </div>
         <p>{text}</p>
+      
+
       </div>
     </Fragment>
   )
