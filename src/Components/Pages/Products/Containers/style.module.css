@@ -1,0 +1,63 @@
+.Col {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transition: 1s ease;
+ 
+}
+
+.Col>p {
+    opacity: 1;
+    color: rgba(51, 51, 58, 1);
+    font-family: "ProximaNova-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.dropdownContent {
+    margin-top: 7px;
+    position: absolute;
+    min-width: 160px;
+    padding: 12px 16px;
+    transition: 1s ease;
+    z-index: 1;
+    height: auto;
+}
+
+.dropdownContent>p {
+    padding: 10px 0px;
+}
+
+h1 {
+    opacity: 1;
+    color: rgba(51, 51, 51, 1);
+    font-family: "VLNewParisHeadline";
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.Flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.Flex>input{
+    margin-left: 5px;
+}

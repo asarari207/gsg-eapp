@@ -3,6 +3,7 @@ import Products from './Items/Products'
 import Style from './Style/products.module.css'
 import SctionTitle from './Items/SctionTitle'
 import SingleProduct from './Pages/SinglePage/SingleProduct'
+import ProdImg from './Imges/pro2.png'
 
 export default function Productslist() {
   const [view, setView] = useState(false)
@@ -20,7 +21,7 @@ export default function Productslist() {
       <SctionTitle title="Featured" />
           <br />
         <div className={Style.container}>
-           {data.map((dt,index) =>  <div key={index} onClick={() => handleClick()}><Products text='Pueraria Mirifica And Study Phyto Estrogens'  /> </div>
+           {data.map((dt,index) =>  <div key={index} onClick={() => handleClick()}><Products text='Pueraria Mirifica And Study Phyto Estrogens' ProdImg={ProdImg} /> </div>
            )}
         </div>
       </>}

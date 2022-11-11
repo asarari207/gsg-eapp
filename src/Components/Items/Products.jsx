@@ -1,8 +1,8 @@
 import React,{Fragment,useState} from 'react'
 import Style from './Product.module.css'
-import ProdImg from '../Imges/pro2.png'
 
-export default function Products({text}) {
+
+export default function Products({text,price,ProdImg}) {
 
   
 
@@ -33,7 +33,8 @@ export default function Products({text}) {
           </div>
         </div>
         <p>{text}</p>
-      
+        <br />
+        <p>{price}$</p>
 
       </div>
     </Fragment>
