@@ -29,7 +29,7 @@
 .listItems {
     padding-left: 6%;
     padding-right: 6%;
-
+    cursor: pointer;
 }
 
 .mobileNav{

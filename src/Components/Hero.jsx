@@ -11,7 +11,7 @@ export default function Hero() {
                 Tricks
             </p></p>
             <br />
-            <h6>Shop Now</h6>
+            <h6><a href='/Products'>Shop Now</a></h6>
             
             <p style={{backgroundColor:"#000",borderStartEndRadius:"50%",borderEndEndRadius:"50%",height:"70px",width:"60px",position:"absolute",left:"0px",opacity:"0.6"}}></p>
             <p style={{backgroundColor:"#000",borderEndStartRadius:"50%",borderStartStartRadius:"50%",height:"70px",width:"60px",position:"absolute",right:"0px",opacity:"0.6"}}></p>
